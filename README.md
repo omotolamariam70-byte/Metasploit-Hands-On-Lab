@@ -9,7 +9,11 @@
 ![Exercise 4 Root Shell](Exercise4_Root_Shell.png)
 
 ## Exercise 5: Meterpreter Session
-
 ## Procedure: I Selected the `exploit/multi/misc/java_rmi_server` module and configured the target IP address as `192.168.56.101`, with the Kali Linux IP address `192.168.56.102` as the local host (LHOST). The payload `java/meterpreter/reverse_tcp` was selected, and the exploit was executed.
 ## Result: A Meterpreter session was successfully established. The `sysinfo` command displayed information about the target system, and `getuid` confirmed root privileges.
 ![Exercise 5 Meterpreter Sysinfo](Exercise5_Meterpreter_Sysinfo.png)
+
+## Exercise 6: Meterpreter Commands and Session Management
+## Procedure: I Used the Meterpreter session to run `pwd`, `ls`, and `getuid`. Then, entered a system shell to execute `uname -a`, returned to Meterpreter, and backgrounded the session. Finally, ran `sessions -l` to list the available sessions.
+## Result: The commands displayed the current working directory, listed files, showed the user privileges, and provided system information. The session list confirmed that the available sessions were maintained in Metasploit.
+![Exercise 6 Sessions List](Exercise6_Sessions_List.png)
