@@ -17,3 +17,11 @@
 ## Procedure: I Used the Meterpreter session to run `pwd`, `ls`, and `getuid`. Then, entered a system shell to execute `uname -a`, returned to Meterpreter, and backgrounded the session. Finally, ran `sessions -l` to list the available sessions.
 ## Result: The commands displayed the current working directory, listed files, showed the user privileges, and provided system information. The session list confirmed that the available sessions were maintained in Metasploit.
 ![Exercise 6 Sessions List](Exercise6_Sessions_List.png)
+
+## Exercise 8: Metasploit Database Review
+## Procedure: I Ran `hosts`, `services`, `vulns`, `creds`, and `loot` to review the collected lab data.
+## Result: Reviewed the target host, discovered services, vulnerability records, credentials, and stored loot.
+## Hosts:
+![Exercise 8 Hosts](Exercise8_Hosts.png)
+## Services:
+![Exercise 8 Services](Exercise8_Services.png)
